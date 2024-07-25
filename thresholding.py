@@ -22,7 +22,7 @@ def Threshold_Demo(val):
 
 # Argument parser to get input image
 parser = argparse.ArgumentParser(description='Code for Basic Thresholding Operations tutorial.')
-parser.add_argument('--input', help='Path to input image.', default='antony.jpg')
+parser.add_argument('--input', help='Path to input image.', default='aurio.jpeg')
 args = parser.parse_args()
 
 # Read the input image
